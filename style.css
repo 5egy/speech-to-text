@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgb(1, 0, 33);
+  color: rgb(204, 204, 255);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-inline: auto;
+  min-width: 300px;
+  padding: 0.5em;
+}
+form #text {
+  background-color: rgb(204, 204, 255);
+  display: block;
+  width: 100%;
+  margin-block: 0.5em;
+  padding: 0.5em;
+  font-size: 0.8em;
+  resize: none;
+  border-radius: 0.5em;
+}
+form div {
+  margin-block: 0.5em;
+  font-size: 0.8em;
+}
+form div input[type=range] {
+  font-size: 0.8em;
+  accent-color: rgb(24, 24, 207);
+  cursor: pointer;
+}
+form select {
+  display: block;
+  width: 100%;
+  margin-block: 0.5em;
+  padding: 0.5em;
+  background-color: rgb(204, 204, 255);
+  cursor: pointer;
+  border-radius: 0.5em;
+  border: none;
+  color: rgb(1, 0, 33);
+}
+form button {
+  background-color: rgb(24, 24, 207);
+  padding: 0.5em;
+  width: 50%;
+  border: none;
+  border-radius: 0.5em;
+  margin-top: 0.5em;
+  cursor: pointer;
+}
+
+img {
+  width: 80px;
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+}
+
+p {
+  font-size: 0.8em;
+  color: rgb(204, 204, 255);
+  margin-top: 3em;
+  text-align: center;
+  padding: 1.5em;
+}
+p a {
+  color: yellow;
+}/*# sourceMappingURL=style.css.map */

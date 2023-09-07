@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+$Primary: rgb(24, 24, 207);
+// $Secondary: rgb(19, 179, 25);
+$White: rgb(204, 204, 255);
+$Black:rgb(1, 0, 33);
+
+body{
+    background-color: $Black;
+    color: $White;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-inline: auto;
+    min-width: 300px;
+    padding: .5em;
+
+    #text{
+        background-color: $White;
+        display: block;
+        width: 100%;
+        margin-block: .5em;
+        padding: .5em;
+        font-size: .8em;
+        resize: none;
+        border-radius: .5em;
+    }
+
+    div{
+        margin-block: .5em;
+        font-size: .8em;
+
+        input[type=range]{
+            font-size: .8em;
+            accent-color: $Primary;
+            cursor: pointer;
+        }
+
+    }
+    select{
+        display: block;
+        width: 100%;
+        margin-block: .5em;
+        padding: .5em;
+        background-color: $White;
+        cursor: pointer;
+        border-radius: .5em;
+        border: none;
+        color: $Black;
+
+    }
+
+    button{
+        background-color: $Primary;
+        padding: .5em;
+        width: 50%;
+        border: none;
+        border-radius: .5em;
+        margin-top: .5em;
+        cursor: pointer;
+    }
+}
+
+    img{
+        width: 80px;
+        margin: auto;
+        margin-top: 20px;
+        display: block;
+    }
+
+    p{
+        font-size: .8em;
+        color: $White;
+        margin-top: 3em;
+        text-align: center;
+        padding: 1.5em;
+
+        a{
+            color: yellow;
+        }
+    }
